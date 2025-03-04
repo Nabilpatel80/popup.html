@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message for You</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffdde1;
+        }
+        .message-box {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .love-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff4e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .love-link:hover {
+            background: #ff7676;
+        }
+    </style>
+    <script>
+        function showLoveMessage() {
+            alert("Hey Just wanted to remind you that you are the most amazing person in the world. Your smile brightens my day, and I feel lucky just to know you. 🤍");
+        }
+    </script>
+</head>
+<body>
+    <div class="message-box">
+        <h2>Hey, angel! 😊</h2>
+        <p>Click the button below for a little surprise!</p>
+        <a href="#" class="love-link" onclick="showLoveMessage()">Click Me 💖</a>
+    </div>
+</body>
+</html>
